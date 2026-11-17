@@ -117,6 +117,7 @@ struct SettingsView: View {
         emergencyUnblockService.record(into: settings)
         BlockActions.emergencyUnblock(
             schedules: schedules,
+            settings: settings,
             screenTimeService: screenTimeService,
             timedUnblockService: timedUnblockService,
             scheduleService: scheduleService,

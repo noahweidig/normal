@@ -169,6 +169,7 @@ struct BlockActionsTests {
     ) {
         BlockActions.emergencyUnblock(
             schedules: schedules,
+            settings: Settings(),
             screenTimeService: screenTime,
             timedUnblockService: timedUnblock ?? makeTimedUnblock(),
             scheduleService: makeSchedule(),

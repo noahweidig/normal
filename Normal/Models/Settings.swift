@@ -14,6 +14,7 @@ final class Settings {
     var blockAllPreventsAppDelete: Bool = true
     var defaultTab: AppTab?
     var hideDonateButton: Bool = false
+    var hapticFeedback: Bool = true
     var showTimedUnblockLiveActivity: Bool = false
     var enableCustomDomains: Bool = false
     var skipBlockWithoutKeyConfirmation: Bool = false

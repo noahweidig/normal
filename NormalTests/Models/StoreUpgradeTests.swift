@@ -392,6 +392,7 @@ struct StoreUpgradeTests {
         #expect(!settings.skipBlockWithoutKeyConfirmation)
         #expect(settings.dailyLimitResetMinutes == 0)
         #expect(settings.unblockDurations == TimedUnblockDuration.presets)
+        #expect(settings.hapticFeedback)
     }
 
     @Test func version15StoreKeepsDurationsResetTimeAndDailyLimits() throws {

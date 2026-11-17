@@ -134,6 +134,11 @@ struct GeneralSettingsView: View {
                 "Hide Donate Button",
                 isOn: Bindable(settings).hideDonateButton
             )
+
+            Toggle(
+                "Haptic Feedback",
+                isOn: Bindable(settings).hapticFeedback
+            )
         } header: {
             Text("Appearance")
         }
